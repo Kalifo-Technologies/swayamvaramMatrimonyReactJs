@@ -3,7 +3,7 @@ import Choose from "./components/Choose/Choose"
 import Gallery from "./components/Gallery/Gallery"
 import Offer from "./components/Offer/Offer"
 import Profile from "./components/Profile/Profile"
-import Trusted from "./components/Trusted/Trusted"
+// import Trusted from "./components/Trusted/Trusted"
 
 const Home = () => {
   return (
@@ -11,7 +11,7 @@ const Home = () => {
       <Banner/>
       <Offer />
       <Profile />
-      <Trusted />
+      {/* <Trusted /> */}
       <Choose />
       <Gallery />
    </>
